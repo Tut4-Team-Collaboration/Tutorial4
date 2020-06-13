@@ -1,0 +1,7 @@
+avg_ = float(input("Enter the average weight : "))
+
+sum_ = float(input("Enter the sum of known weights : "))
+
+final_ = (((avg_*10)-sum_)/3)
+
+print("Weight of the fish that was not recorded : ", final_)
